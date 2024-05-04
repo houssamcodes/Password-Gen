@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 16px;
+  background-image: url(wallpapersden.com_77061-1920x1080.jpg);
+  background-size: cover;
+}
+.container {
+  width: 650px;
+  height: 600px;
+  background-color: rgba(169, 169, 169, 0.943);
+  border-radius: 5px;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+}
+.main h1 {
+  font-weight: bold;
+  color: rgb(160, 74, 74);
+}
+.main p {
+  font-weight: 200px;
+  line-height: 25px;
+  color: rgb(47, 52, 57);
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 30px;
+  align-items: center;
+}
+.bstyle {
+  background-color: rgb(81, 98, 113);
+  width: 80%;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.bstyle p {
+  margin-left: 10px;
+}
+.bottom-main {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.display-code-el {
+  width: 55%;
+  background-color: rgb(175, 151, 151);
+  height: 45px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.rest {
+  padding: 10px;
+}
+.copy,
+.rest {
+  padding: 10px 10px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.el-ico {
+  width: 20px;
+  height: 20px;
+  color: rgb(255, 255, 255);
+  fill: aqua;
+}
+.privacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.bottom-ico {
+  width: 20px;
+  height: 20px;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+.hand,
+.eye,
+.lock {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.privacy p {
+  color: rgb(126, 119, 119);
+}
+.chika {
+  display: flex;
+  margin-left: 400px;
+}
+.UpperCase-el {
+  text-align: center;
+}
+
+.display-code-el {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(97, 245, 77);
+}

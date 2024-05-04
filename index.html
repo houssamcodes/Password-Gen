@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JacoubiPass</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1>JacoubiPass</h1>
+        <p>Create strong passwords that no one can break!</p>
+        <div class="boxes">
+          <div class="box bstyle">
+            <p class="UpperCase-el">Uppercases(A-Z)</p>
+            <div class="chika">
+              <input id="checkeds1" class="chekbox" type="checkbox">
+            </div>
+          </div>
+          <div class="box bstyle">
+            <p class="UpperCase-el">Lowercases(a-z)</p>
+            <div class="chika">
+              <input id="checkeds2" class="chekbox" type="checkbox">
+            </div>
+          </div>
+          <div class="box bstyle">
+            <p class="UpperCase-el">Numbers(0-9)</p>
+            <div class="chika">
+              <input id="checkeds3" class="chekbox" type="checkbox">
+            </div>
+          </div>
+          <div class="box bstyle">
+            <p class="UpperCase-el">Symbols(&#@$!)</p>
+            <div class="chika">
+              <input id="checkeds4" class="chekbox" type="checkbox">
+            </div>
+          </div>
+          
+        </div>
+        <div class="bottom-main">
+          <div class="display-code-el">
+            <p class="a hidden"></p>
+          </div>
+          <div class="rest-el reststyle">
+            <button class="copy">
+              <img class="el-ico" src="/svg/ha.svg" alt="" />
+            </button>
+          </div>
+          <div class="copy-el reststyle">
+            <button class="rest">
+              <img class="el-ico" src="svg/copy.svg" alt="" />
+            </button>
+          </div>
+        </div>
+        <div class="privacy">
+          <div class="lock">
+            <p>Guaranteed secuirty</p>
+            <img class="bottom-ico" src="svg/lock.svg" alt="" />
+          </div>
+          <div class="hand">
+            <p>Privacy friendly</p>
+            <img class="bottom-ico" src="svg/hands.svg" alt="" />
+          </div>
+          <div class="eye">
+            <p>No data tracking</p>
+            <img class="bottom-ico" src="svg/eye.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
